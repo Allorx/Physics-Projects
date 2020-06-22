@@ -1,2 +1,2 @@
 # Python-for-Physics
-Projects developed in python presenting and analysing physical phenomena
+Projects developed in Python presenting and analysing physical phenomena
