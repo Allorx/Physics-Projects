@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Prefix">
+    <file>Orbit.png</file>
+  </qresource>
+</RCC>

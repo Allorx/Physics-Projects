@@ -1,0 +1,4 @@
+Make sure that EinsteinPy, PyQt5, Numpy and Matplotlib are installed
+-> Visual addition qdarkstyle: install using - 'pip install qdarkstyle'
+
+Run main.py to run the program.
