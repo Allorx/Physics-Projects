@@ -1,3 +1,5 @@
+The PDF OrbitsInStronglyCurvedSpacetime.pdf includes an overview of the application and physics used.
+
 Make sure that EinsteinPy, PyQt5, Numpy and Matplotlib are installed
 -> Visual addition qdarkstyle: install using - 'pip install qdarkstyle'
 
