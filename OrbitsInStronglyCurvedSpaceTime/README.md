@@ -1,5 +1,5 @@
 # Orbits in Strongly Curved Space Time
-Offers a UI to display the movement of a particle in strongly curved space-time.
+Offers a UI to display the movement of a particle in strongly curved space-time with adjustable parameters
 
 - The PDF Orbits_in_strongly_Curved_Spacetime.pdf includes an overview of the application and physics used.
 
