@@ -1,0 +1,9 @@
+#Orbits in Strongly Curved Space Time
+Offers a UI to display the movement of a particle in strongly curved space-time.
+
+-The PDF Orbits_in_strongly_Curved_Spacetime.pdf includes an overview of the application and physics used.
+
+-Make sure that EinsteinPy, PyQt5, Numpy and Matplotlib are installed
+-> Visual addition qdarkstyle: install in your environment e.g. 'pip install qdarkstyle'
+
+-Run main.py to run the program.

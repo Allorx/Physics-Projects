@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/Alex/Downloads/FINAL_PROJECT/Code/build",
+  "command": "/usr/bin/clang++   -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -std=gnu++17 -o CMakeFiles/S_K_C_DR.dir/main.cpp.o -c /Users/Alex/Downloads/FINAL_PROJECT/Code/main.cpp",
+  "file": "/Users/Alex/Downloads/FINAL_PROJECT/Code/main.cpp"
+}
+]

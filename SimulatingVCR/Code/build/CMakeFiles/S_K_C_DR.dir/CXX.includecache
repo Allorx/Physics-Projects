@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Alex/Downloads/FINAL_PROJECT/Code/main.cpp
+math.h
+-
+iostream
+-
+fstream
+-
+complex
+-
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20210228-1835-Experimental"
+	Name="Mackey.local"
+	Generator="ctest-3.19.4"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="12.0.0.12000032"
+	OSName="macOS"
+	Hostname="Mackey.local"
+	OSRelease="11.2.2"
+	OSVersion="20D80"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="1024"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2900"
+	>
+	<Testing>
+		<StartDateTime>Feb 28 18:35 GMT</StartDateTime>
+		<StartTestTime>1614537309</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 28 18:35 GMT</EndDateTime>
+		<EndTestTime>1614537309</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
