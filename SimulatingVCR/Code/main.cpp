@@ -11,7 +11,6 @@ const long double pi = acos(-1.0);
 
 const long double a = 0.045;
 const long double b = 0.015;
-// long double b = 0.0;
 
 const long double gamma1 = 12.0;
 const long double permitivity = 1.41 * 1.41;
