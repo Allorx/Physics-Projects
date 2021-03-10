@@ -9,7 +9,7 @@ c_s = 299792458
 x = np.loadtxt('build/data.txt', usecols=(0), unpack=True)
 y = np.loadtxt('build/data.txt', usecols=(1), unpack=True)
 
-#plt.plot(x, y)
+# plt.plot(x, y)
 plt.plot(x, y/(math.exp(2)/(math.pi**2 * c_s)))
 
 # plt.yscale("log")
