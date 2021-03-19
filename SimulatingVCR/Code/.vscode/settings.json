@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "complex": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "fstream": "cpp"
     },
     "python.pythonPath": "/Users/Alex/opt/anaconda3/bin/python",
     "python.formatting.provider": "autopep8",

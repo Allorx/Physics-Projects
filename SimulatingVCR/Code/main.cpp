@@ -9,13 +9,18 @@ const complex<long double> i(0, 1.0);
 const long double pi = acos(-1.0);
 // variables
 
-const long double a = 0.045;
-const long double b = 0.015;
+long double a = 0.045;
+long double *ptr_a = &a;
+long double b = 0.015;
+long double *ptr_b = &b;
 
-const long double gamma1 = 12.0;
+const long double gamma1 = 12;
+//const long double gamma1 = 5870.84148728;
 const long double permitivity = 1.41 * 1.41;
-const long double phi = pi / 4.0;
+long double phi = pi / 4.0;
+long double *ptr_phi = &phi;
 long double phiVar = 0;
+long double *ptr_phiVar = &phiVar;
 
 long double psi = 0.0 * pi / 180.0;
 
@@ -118,15 +123,35 @@ long double SpectralAD()
 int main()
 {
     // Outputs spectral angular distribution to data.txt at regular intervals of granularity from -20 to 70 deg.
-    const int granularity = 5000;
+    int granularity = 5000;
     ofstream myfile;
     myfile.open("data.txt");
+    *ptr_a = 0.01;
     for (int i = 0; i < granularity; i++)
     {
-        myfile << theta_p * 180 / pi << " " << SpectralAD() << endl;
-        *ptr_theta_p += 90 * pi / (180 * granularity);
+        myfile << a << " " << SpectralAD() << endl;
+        *ptr_a += 0.035 / granularity;
+        //*ptr_theta_p += 90 * pi / (180 * granularity);
     }
+
     myfile.close();
 
+    // 3D plot
+    granularity = 1000;
+    *ptr_theta_p = -20.0 * pi / 180;
+    ofstream dfile;
+    dfile.open("data3D.txt", ios::app);
+    *ptr_a = 0.01;
+    for (int j = 0; j < granularity; j++)
+    {
+        for (int i = 0; i < granularity; i++)
+        {
+            dfile << theta_p * 180 / pi << " " << SpectralAD() << " " << a << endl;
+            *ptr_theta_p += 90 * pi / (180 * granularity);
+        }
+        *ptr_a += 0.035 / granularity;
+        *ptr_theta_p = -20.0 * pi / 180;
+    }
+    dfile.close();
     return 0;
 }
