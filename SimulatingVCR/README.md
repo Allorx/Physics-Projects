@@ -1,3 +1,3 @@
 # Development of Code for Simulating Vavilov-Cherenkov Radiation
-Full source code and paper for generalised simulation of Vavilov-Cherenkov Radiation. *(My final year thesis)*
+Full source code and paper for generalised simulation of Vavilov-Cherenkov Radiation *(my final year thesis)*.
 - CMake file included for easy cross-platform compiling
